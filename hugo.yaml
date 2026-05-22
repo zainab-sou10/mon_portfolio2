@@ -1,0 +1,151 @@
+baseURL: "https://zainab-sou10.github.io/mon-portfolio-2/"
+languageCode: "en-us"
+title: "Zainab Soufary | Portfolio"
+theme: hugo-profile
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  title: "Zainab Soufary"
+  description: "Portfolio de Zainab Soufary"
+  favicon: "/fav.png"
+  useBootstrapCDN: true
+  animate: true
+
+  navbar:
+    align: ms-auto
+    brandName: "Zainab Soufary"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Bonjour, je m'appelle"
+    title: "Zainab Soufary."
+    subtitle: "Étudiante en Systèmes Embarqués & Services Numériques"
+    content: "Étudiante passionnée à l'INPT Rabat. Je m'intéresse à l'IoT, au développement web et aux systèmes de contrôle."
+    image: /images/Nature.jpg
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/zainab-sou10
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/zainab-soufary
+        - icon: fa fa-envelope
+          url: mailto:zsoufary@gmail.com
+
+  about:
+    enable: true
+    title: "À Propos de Moi"
+    image: "/images/Nature.jpg"
+    content: |-
+      Étudiante en Systèmes Embarqués et Services Numériques à l'INPT Rabat. Je m'intéresse à l'IoT, au développement web et aux systèmes de contrôle. Toujours motivée par les défis techniques.
+    skills:
+      enable: true
+      title: "Compétences :"
+      items:
+        - "Systèmes embarqués"
+        - "Python"
+        - "HTML / CSS / JavaScript"
+        - "IoT & Arduino"
+        - "Bases de données"
+        - "Git & GitHub"
+
+  experience:
+    enable: true
+    title: "Expériences"
+    items:
+      - company: "Projet académique de groupe"
+        jobs:
+          - name: "Membre d'équipe — Projet IoT"
+            date: "2026"
+            content: "Développement d'un système IoT de surveillance des températures de réfrigérateurs industriels."
+      - company: "Projet académique de groupe"
+        jobs:
+          - name: "Membre d'équipe — Projet RFID"
+            date: "2026"
+            content: "Conception d'un système de gestion d'accès via RFID avec intégration Google Sheets et base de données."
+
+  education:
+    enable: true
+    title: "Formation"
+    items:
+      - title: "Cycle Ingénieur — Systèmes Embarqués et Services Numériques"
+        school:
+          name: "INPT Rabat"
+          url: "https://www.inpt.ac.ma"
+        date: "2026"
+
+  projects:
+    enable: true
+    title: "Projets"
+    items:
+      - title: "Amélioration de la performance des barrages hydroélectriques"
+        content: "Projet individuel — Optimisation des performances des barrages hydroélectriques via un système de régulation de débit."
+        image: /images/barrage.jpg
+        badges:
+          - "Systèmes de contrôle"
+          - "Régulation"
+      - title: "Projet RFID : Gestion de l'accès"
+        content: "Projet de groupe — Système de gestion d'accès basé sur RFID avec intégration Google Sheets et base de données."
+        image: /images/RFID.jpg
+        badges:
+          - "RFID"
+          - "Google Sheets"
+          - "Base de données"
+      - title: "Système IoT de Surveillance des Températures"
+        content: "Projet de groupe — Application web IoT pour la surveillance en temps réel des températures de réfrigérateurs industriels."
+        image: /images/IoT .jpg
+        badges:
+          - "IoT"
+          - "Web"
+          - "Arduino"
+
+  achievements:
+    enable: false
+
+  contact:
+    enable: true
+    title: "Contact"
+    content: "N'hésitez pas à me contacter pour toute question ou collaboration !"
+    btnName: "M'écrire"
+    btnLink: mailto:zsoufary@gmail.com
+
+  footer:
+    socialNetworks:
+      github: https://github.com/zainab-sou10
+      linkedin: https://linkedin.com/in/zainab-soufary
+      email: mailto:zsoufary@gmail.com
