@@ -11,7 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          submodules: true
+          submodules: recursive
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -23,7 +24,6 @@ jobs:
           cd themes/hugo-profile
           npm install
           cd ../..
-        
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
