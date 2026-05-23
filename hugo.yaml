@@ -1,4 +1,4 @@
-baseURL: "https://zainab-sou10.github.io/mon-portfolio-2/"
+baseURL: "http://localhost:1313/"
 languageCode: "en-us"
 title: "Zainab Soufary | Portfolio"
 theme: hugo-profile
@@ -12,7 +12,6 @@ outputs:
     - "RSS"
     - "JSON"
   page:
-    - "HTML"
     - "RSS"
 
 enableRobotsTXT: true
@@ -53,7 +52,7 @@ params:
     title: "Zainab Soufary."
     subtitle: "Étudiante en Systèmes Embarqués & Services Numériques"
     content: "Étudiante passionnée à l'INPT Rabat. Je m'intéresse à l'IoT, au développement web et aux systèmes de contrôle."
-    image: /images/Nature.jpg
+    image: images/Nature.jpg
     bottomImage:
       enable: true
     button:
@@ -70,7 +69,7 @@ params:
   about:
     enable: true
     title: "À Propos de Moi"
-    image: "/images/Nature.jpg"
+    image: "images/Nature.jpg"
     content: |-
       Étudiante en Systèmes Embarqués et Services Numériques à l'INPT Rabat. Je m'intéresse à l'IoT, au développement web et aux systèmes de contrôle. Toujours motivée par les défis techniques.
     skills:
@@ -115,20 +114,20 @@ params:
     items:
       - title: "Amélioration de la performance des barrages hydroélectriques"
         content: "Projet individuel — Optimisation des performances des barrages hydroélectriques via un système de régulation de débit."
-        image: /images/barrage.jpg
+        image: images/barrage.jpg
         badges:
           - "Systèmes de contrôle"
           - "Régulation"
       - title: "Projet RFID : Gestion de l'accès"
         content: "Projet de groupe — Système de gestion d'accès basé sur RFID avec intégration Google Sheets et base de données."
-        image: /images/RFID.jpg
+        image: images/RFID.jpg
         badges:
           - "RFID"
           - "Google Sheets"
           - "Base de données"
       - title: "Système IoT de Surveillance des Températures"
         content: "Projet de groupe — Application web IoT pour la surveillance en temps réel des températures de réfrigérateurs industriels."
-        image: /images/IoT .jpg
+        image: images/IoT.jpg
         badges:
           - "IoT"
           - "Web"
@@ -148,4 +147,3 @@ params:
     socialNetworks:
       github: https://github.com/zainab-sou10
       linkedin: https://linkedin.com/in/zainab-soufary
-      email: mailto:zsoufary@gmail.com
